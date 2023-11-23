@@ -5,7 +5,9 @@ const config: Config = {
     content: ['./src/**/*.{js,ts,jsx,tsx,mdx}'],
     theme: {},
     plugins: [],
-    corePlugins: {},
+    corePlugins: {
+        preflight: false,
+    },
 }
 
 export default config
